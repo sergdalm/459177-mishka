@@ -1,58 +1,91 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# [HTML5 Boilerplate](https://html5boilerplate.com/)
 
-* Студент: [Александрия Сергиенко](https://up.htmlacademy.ru/adaptive/12/user/459177).
-* Наставник: [Марина Удовенко](https://up.htmlacademy.ru/adaptive/12/user/7570).
+[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
+[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
 
----
+HTML5 Boilerplate is a professional front-end template for building
+fast, robust, and adaptable web apps or sites.
 
-**Обратите внимание на файл:**
+This project is the product of years of iterative development and
+community knowledge. It does not impose a specific development
+philosophy or framework, so you're free to architect your code in the
+way that you want.
 
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
+* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
+* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+* Twitter: [@h5bp](https://twitter.com/h5bp)
 
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`, `package-lock.json`, `package.json`._
 
----
+## Quick start
 
-### Памятка
+Choose one of the following options:
 
-#### 1. Зарегистрируйтесь на Гитхабе
+1. Download the latest stable release from
+   [html5boilerplate.com](https://html5boilerplate.com/).
+2. Clone the git repo — `git clone
+   https://github.com/h5bp/html5-boilerplate.git` - and checkout the
+   [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
+   you'd like to use.
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
-#### 2. Создайте форк
+## Features
 
-Откройте репозиторий и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+* HTML5 ready. Use the new elements with confidence.
+* Designed with progressive enhancement in mind.
+* Includes:
+  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
+    for CSS normalizations and common bug fixes
+  * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
+  * A custom build of [`Modernizr`](https://modernizr.com/) for feature
+    detection
+  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
+    that, among other, improve the web site's performance and security
+* Placeholder CSS Media Queries.
+* Useful CSS helper classes.
+* Default print styles, performance optimized.
+* An optimized version of the Google Universal Analytics snippet.
+* Protection against any stray `console` statements causing JavaScript
+  errors in older browsers.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive inline and accompanying documentation.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455590/09e03f32-206a-11e6-9dc8-32d4c11edc90.png">
 
-Получится вот так:
+## Browser support
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/15455592/0a060884-206a-11e6-863d-531a4023ac2e.png">
+* Chrome *(latest 2)*
+* Edge *(latest 2)*
+* Firefox *(latest 2)*
+* Internet Explorer 9+
+* Opera *(latest 2)*
+* Safari *(latest 2)*
 
-#### 3. Клонируйте репозиторий на свой компьютер
+*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
+just that we'll ensure compatibility with the ones mentioned above.*
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
+If you need legacy browser support you
+can use [HTML5 Boilerplate v4](https://github.com/h5bp/html5-boilerplate/tree/v4) (IE 6+, Firefox 3.6+, Safari 4+),
+or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0) (IE8+). They are no longer actively developed.
 
-<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/26306270/5e6b9eba-3efb-11e7-9817-0d6b7faa21b4.png">
 
-Клонировать репозиторий можно так:
+## Documentation
 
-```
-git clone SSH-адрес_вашего_форка
-```
+Take a look at the [documentation table of contents](dist/doc/TOC.md).
+This documentation is bundled with the project which makes it 
+available for offline reading and provides a useful starting point for
+any documentation you want to write about your project.
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
-#### 4. Начинайте обучение!
+## Contributing
 
----
+Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
+however, if you decide to get involved, please take a moment to review
+the [guidelines](.github/CONTRIBUTING.md):
 
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github.svg"></a>
+* [Bug reports](.github/CONTRIBUTING.md#bugs)
+* [Feature requests](.github/CONTRIBUTING.md#features)
+* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
 
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Продвинутый HTML и CSS](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/459177-mishka.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/459177-mishka
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/459177-mishka/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/459177-mishka?type=dev
+## License
+
+The code is available under the [MIT license](LICENSE.txt).
