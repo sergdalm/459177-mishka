@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f90181d-7e74-49f3-9cbf-d6344d5e6b57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/advantages.less" afterPath="$PROJECT_DIR$/less/advantages.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/button.less" afterPath="$PROJECT_DIR$/less/button.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts-table.less" afterPath="$PROJECT_DIR$/less/contacts-table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts.less" afterPath="$PROJECT_DIR$/less/contacts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/copyright.less" afterPath="$PROJECT_DIR$/less/copyright.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/making-process.less" afterPath="$PROJECT_DIR$/less/making-process.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-list.less" afterPath="$PROJECT_DIR$/less/nav-list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/order.less" afterPath="$PROJECT_DIR$/less/order.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-footer.less" afterPath="$PROJECT_DIR$/less/page-footer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-header.less" afterPath="$PROJECT_DIR$/less/page-header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-main.less" afterPath="$PROJECT_DIR$/less/page-main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/parameters-table.less" afterPath="$PROJECT_DIR$/less/parameters-table.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/popular-item.less" afterPath="$PROJECT_DIR$/less/popular-item.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/products.less" afterPath="$PROJECT_DIR$/less/products.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/reviews.less" afterPath="$PROJECT_DIR$/less/reviews.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/visually-hidden.less" afterPath="$PROJECT_DIR$/less/visually-hidden.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wrapper.less" afterPath="$PROJECT_DIR$/less/wrapper.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +64,8 @@
       <file leaf-file-name="icon-cart.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/icon-cart.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="1" column="267" lean-forward="false" selection-start-line="1" selection-start-column="267" selection-end-line="1" selection-end-column="267" />
+            <state relative-caret-position="20">
+              <caret line="1" column="269" lean-forward="false" selection-start-line="1" selection-start-column="269" selection-end-line="1" selection-end-column="269" />
               <folding />
             </state>
           </provider>
@@ -278,12 +295,12 @@
       <workItem from="1506867898080" duration="25669000" />
       <workItem from="1507152562125" duration="339000" />
       <workItem from="1507154400596" duration="55000" />
-      <workItem from="1507230194861" duration="1284000" />
+      <workItem from="1507230194861" duration="1486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52325000" />
+    <option name="totallyTimeSpent" value="52527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -550,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/icon-cart.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="1" column="267" lean-forward="false" selection-start-line="1" selection-start-column="267" selection-end-line="1" selection-end-column="267" />
+        <state relative-caret-position="20">
+          <caret line="1" column="269" lean-forward="false" selection-start-line="1" selection-start-column="269" selection-end-line="1" selection-end-column="269" />
           <folding />
         </state>
       </provider>
