@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f90181d-7e74-49f3-9cbf-d6344d5e6b57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/advantages.less" afterPath="$PROJECT_DIR$/less/advantages.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/button.less" afterPath="$PROJECT_DIR$/less/button.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts-table.less" afterPath="$PROJECT_DIR$/less/contacts-table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts.less" afterPath="$PROJECT_DIR$/less/contacts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/copyright.less" afterPath="$PROJECT_DIR$/less/copyright.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/making-process.less" afterPath="$PROJECT_DIR$/less/making-process.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-list.less" afterPath="$PROJECT_DIR$/less/nav-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/order.less" afterPath="$PROJECT_DIR$/less/order.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-footer.less" afterPath="$PROJECT_DIR$/less/page-footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-header.less" afterPath="$PROJECT_DIR$/less/page-header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-main.less" afterPath="$PROJECT_DIR$/less/page-main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/parameters-table.less" afterPath="$PROJECT_DIR$/less/parameters-table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/popular-item.less" afterPath="$PROJECT_DIR$/less/popular-item.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/products.less" afterPath="$PROJECT_DIR$/less/products.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/reviews.less" afterPath="$PROJECT_DIR$/less/reviews.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/visually-hidden.less" afterPath="$PROJECT_DIR$/less/visually-hidden.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/wrapper.less" afterPath="$PROJECT_DIR$/less/wrapper.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
