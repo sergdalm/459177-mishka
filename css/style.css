@@ -1,0 +1,246 @@
+.nav-list__link {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+.page-main__title-container {
+  background-color: #f1f1f1;
+}
+.page-main__slogan {
+  background-image: url("../img/hero-mobile@1x.jpg");
+}
+.page-main__slogan {
+  font-size: 27px;
+  color: ##010000;
+  font-weight: 700px;
+  line-height: 29px;
+  text-align: center;
+}
+.categories-list {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.categories-list__item--interior {
+  background-color: #63d1bb;
+}
+.categories-list__item--toys {
+  background-color: #56c3b2;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.categories-list__link {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.popular-item__title {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.popular-item__mark {
+  color: #63d1bb;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.popular-item__price {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  color: #444444;
+}
+.parameters-table {
+  line-height: 20px;
+}
+.advantages__title {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.advantages__item {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  line-height: 20px;
+}
+.reviews__title {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.reviews__author-name {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  font-style: inherit;
+}
+.reviews__author-email {
+  color: #444444;
+  font-size: 17px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.contacts__map {
+  background-image: url("../img/map-mobile@1x.jpg");
+}
+.contacts-table__cell {
+  line-height: 30px;
+}
+.page-footer {
+  background-color: #f1f1f1;
+}
+.copyright {
+  color: #000000;
+  font-size: 19px;
+  line-height: 5px;
+}
+.order-form__text {
+  font-size: 13px;
+}
+.order-form__title {
+  color: #63d1bb;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  line-height: 16px;
+}
+.order-form__label {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  line-height: 5px;
+}
+.order-form__notice {
+  font-size: 14px;
+  line-height: 16px;
+}
+.order-form___input::-webkit-input-placeholder {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 5;
+  color: #444444;
+}
+.order-form___input:-ms-input-placeholder {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 5;
+  color: #444444;
+}
+.order-form___input::placeholder {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 5;
+  color: #444444;
+}
+.making-process__title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.making-process__text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  line-height: 24px;
+}
+.products__name {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.products__details {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.products__price {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+.button {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset;
+  clip-path: inset;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+:root {
+  background-color: #ffffff;
+  font-family: "OpenSans", "Arial", sans-serif;
+  color: #444444;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button-font {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+.copyright-font {
+  color: #000000;
+  font-size: 19px;
+  line-height: 5px;
+}
+.discription-font {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.notice-font {
+  font-size: 14px;
+  line-height: 16px;
+}
+.link {
+  text-decoration: none;
+}
+.placeholdr-font {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 5;
+  color: #444444;
+}
