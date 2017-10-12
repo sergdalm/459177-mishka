@@ -96,26 +96,45 @@
 
 @media (min-width: 1250px) {
   .making-process {
+    min-height: 455px;
     width: 1050px;
     position: relative;
     .wrapper-desktop;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 105px;
 
     &__video {
       position: absolute;
       content: "";
+      width: 683px;
     }
 
     &__title-container {
-      width: 367px;
+      box-sizing: border-box;
+      width: 368px;
+      min-height: 170px;
       margin-left: auto;
+      padding-top: 100px;
+    }
+
+    &__title {
+      width: 150px;
+      text-align: left;
     }
 
     &__text-container {
-      width: 367px;
+      padding-left: 80px;
+      box-sizing: border-box;
+      display: block;
+      width: 368px;
+      min-height: 284px;
       margin-left: auto;
+    }
+
+    &__text {
+      width: 230px;
     }
 
     &__button {
