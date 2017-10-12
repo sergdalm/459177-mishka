@@ -4,27 +4,6 @@
     <list default="true" id="7f90181d-7e74-49f3-9cbf-d6344d5e6b57" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mishka-logo-desktop.svg" afterPath="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mishka-logo-tablet.svg" afterPath="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/advantages.less" afterPath="$PROJECT_DIR$/less/advantages.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/categories.less" afterPath="$PROJECT_DIR$/less/categories.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts-table.less" afterPath="$PROJECT_DIR$/less/contacts-table.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/contacts.less" afterPath="$PROJECT_DIR$/less/contacts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/copyright.less" afterPath="$PROJECT_DIR$/less/copyright.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main-nav.less" afterPath="$PROJECT_DIR$/less/main-nav.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-first.less" afterPath="$PROJECT_DIR$/less/nav-first.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-second.less" afterPath="$PROJECT_DIR$/less/nav-second.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-third.less" afterPath="$PROJECT_DIR$/less/nav-third.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/order.less" afterPath="$PROJECT_DIR$/less/order.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-footer.less" afterPath="$PROJECT_DIR$/less/page-footer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-header.less" afterPath="$PROJECT_DIR$/less/page-header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/page-main.less" afterPath="$PROJECT_DIR$/less/page-main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/popular-item.less" afterPath="$PROJECT_DIR$/less/popular-item.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/products.less" afterPath="$PROJECT_DIR$/less/products.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/reviews.less" afterPath="$PROJECT_DIR$/less/reviews.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/slogan.less" afterPath="$PROJECT_DIR$/less/slogan.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/social.less" afterPath="$PROJECT_DIR$/less/social.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/visually-hidden.less" afterPath="$PROJECT_DIR$/less/visually-hidden.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,8 +83,6 @@
         <option value="$PROJECT_DIR$/less/button.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/making-process.less" />
-        <option value="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
-        <option value="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
         <option value="$PROJECT_DIR$/less/advantages.less" />
         <option value="$PROJECT_DIR$/less/categories.less" />
         <option value="$PROJECT_DIR$/less/contacts.less" />
@@ -127,6 +104,8 @@
         <option value="$PROJECT_DIR$/less/social.less" />
         <option value="$PROJECT_DIR$/less/style.less" />
         <option value="$PROJECT_DIR$/less/visually-hidden.less" />
+        <option value="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
+        <option value="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
       </list>
     </option>
   </component>
@@ -291,12 +270,12 @@
       <workItem from="1507504123896" duration="1118000" />
       <workItem from="1507505500411" duration="2749000" />
       <workItem from="1507582443644" duration="34741000" />
-      <workItem from="1507708659146" duration="29863000" />
+      <workItem from="1507708659146" duration="30085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122516000" />
+    <option name="totallyTimeSpent" value="122738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="404" y="0" width="962" height="768" extended-state="0" />
@@ -431,22 +410,6 @@
     <entry file="file://$PROJECT_DIR$/img/map-desktop@1x.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/mishka-logo-tablet.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/mishka-logo-desktop.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/advantages.less">
@@ -637,6 +600,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/mishka-logo-tablet.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/mishka-logo-desktop.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
