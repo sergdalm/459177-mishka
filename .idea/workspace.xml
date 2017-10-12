@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f90181d-7e74-49f3-9cbf-d6344d5e6b57" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/less/page-main.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-third.less" afterPath="$PROJECT_DIR$/less/nav-third.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/normalize.less" afterPath="$PROJECT_DIR$/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
               <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav-third.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/nav-third.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,10 +142,10 @@
         <option value="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
         <option value="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
         <option value="$PROJECT_DIR$/less/mixins.less" />
-        <option value="$PROJECT_DIR$/less/nav-third.less" />
         <option value="$PROJECT_DIR$/less/normalize.less" />
         <option value="$PROJECT_DIR$/less/page-main.less" />
         <option value="$PROJECT_DIR$/less/style.less" />
+        <option value="$PROJECT_DIR$/less/nav-third.less" />
       </list>
     </option>
   </component>
@@ -305,12 +310,12 @@
       <workItem from="1507504123896" duration="1118000" />
       <workItem from="1507505500411" duration="2749000" />
       <workItem from="1507582443644" duration="34741000" />
-      <workItem from="1507708659146" duration="30599000" />
+      <workItem from="1507708659146" duration="30683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123252000" />
+    <option name="totallyTimeSpent" value="123336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="404" y="0" width="962" height="768" extended-state="0" />
@@ -616,14 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/nav-third.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/mixins.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -652,6 +649,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/nav-third.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
