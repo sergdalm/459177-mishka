@@ -1,0 +1,73 @@
+@media (min-width: 320px) {
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+    flex-direction: column;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      .categories-font;
+      .list()
+    }
+
+    &__item--interior {
+      width: 100%;
+      min-height: 103px;
+      .theme(@category-color1);
+    }
+
+    &__item--toys {
+      width: 100%;
+      min-height: 103px;
+      .theme(@category-color2);
+    }
+
+    &__wrapper {
+      .wrapper;
+    }
+
+    &__link {
+      .categories-font();
+      .link;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .categories {
+    width: 100%;
+    background-color: #f8f8f8;
+
+    flex-direction: row;
+
+    &__list {
+      .wrapper-tablet;
+    }
+
+    &__item {
+      box-sizing: border-box;
+      width: 334px;
+      padding-right: 167px;
+    }
+
+    &__link {
+      .categories-font-tablet-desktop();
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .categories {
+    margin-bottom: 71px;
+
+    &__list {
+      .wrapper-desktop;
+    }
+
+    &__item {
+      width: 525px;
+    }
+  }
+}

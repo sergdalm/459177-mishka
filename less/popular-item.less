@@ -1,14 +1,166 @@
-.popular-item {
-  &__title {
-    .second-title();
-  }
+@media (min-width: 320px) {
+  .popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 
-  &__mark {
-    .mark-font();
-  }
+    &__wrapper {
+      .wrapper;
+      margin-bottom: 70px;
+    }
 
-  &__price {
-    .third-title;
-    color: #444444;
+    &__title {
+      .second-title();
+    }
+
+    &__mark {
+      .mark-font();
+    }
+
+    &__text {
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    &__image {
+      order: 1;
+      width: 260px;
+      height: 315px;
+      background-image: url("../img/triple-set-mobile@1x.jpg");
+      background-repeat: no-repeat;
+    }
+
+    &__container-buy {
+      order: 3;
+    }
+
+    &__price {
+      .third-title-all;
+      color: #444444;
+      margin-left: 70px;
+    }
+
+    &__button {
+      .button-normal-font();
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .popular-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .wrapper-tablet;
+
+    &__container-title {
+      margin-right: 28px;
+      order: 1;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 47px;
+    }
+
+    &__price {
+      .third-title-tablet-desktop();
+    }
+
+    &__container-big {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 480px;
+    }
+
+    &__title {
+      .second-title-tablet();
+    }
+
+    &__mark {
+      width: 75px;
+      text-align: center;
+      .mark-font-tablet-desktop();
+    }
+
+    &__container-contant {
+      height: 280px;
+      order: 1;
+    }
+
+    &__text {
+      width: 300px;
+      margin: 0;
+      .text-all();
+    }
+
+    &__container-buy {
+      order: 2;
+    }
+
+    &__image {
+      order: 3;
+      background-image: url("../img/triple-set-tablet.png");
+      width: 334px;
+      height: 404px;
+      margin-left: auto;
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .popular-item {
+    position: relative;
+    height: 636px;
+    .wrapper-desktop;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 85px;
+
+    &__container-title {
+      order: 1;
+      width: 700px;
+      margin-right: 0;
+      padding-top: 56px;
+      position: relative;
+    }
+
+    &__title {
+      position: absolute;
+      content: "";
+      left: 175px;
+      z-index: 1;
+      order: 2;
+      .second-title-desktop();
+    }
+
+    &__mark {
+      order: 1;
+      margin-left: 47px;
+    }
+
+    &__image {
+      order: 4;
+      background-image: url("../img/triple-set-desktop.png");
+      width: 525px;
+      height: 636px;
+      position: absolute;
+      content: "";
+      left: 525px;
+    }
+
+    &__container-big {
+      order: 2;
+      margin-left: 175px;
+      margin-bottom: auto;
+    }
+
+    &__container-buy {
+      order: 3;
+      margin-top: auto;
+      margin-left: 175px;
+    }
   }
 }

@@ -1,6 +1,7 @@
 .order-form {
   &__text {
     font-size: 13px;
+    line-height: 24px;
   }
 
   &__title {
@@ -9,17 +10,29 @@
   }
 
   &__label {
-    .third-title();
     line-height: 5px;
   }
 
   &__notice {
-    .notice-font;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   &___input {
     &::placeholder {
-      .placeholdr-font;
+      .placeholder-font;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .order-form {
+    &__text {
+      .order-text-font-tablet-desktop()
+    }
+
+    &__notice {
+      .order-text-font-tablet-desktop()
     }
   }
 }

@@ -1,17 +1,134 @@
-.reviews {
-  &__title {
-    .second-title();
-  }
+@media (min-width: 320px) {
+  .reviews {
+    display: flex;
+    flex-wrap: wrap;
 
-  &__author-name {
-    .third-title();
-    font-style: inherit;
-  }
+    &__wrapper {
+      .wrapper;
+      margin-bottom: 87px;
+    }
 
-  &__author-email {
-    color: #444444;
-    font-size: 17px;
-    line-height: 30px;
-    .link
+    &__title {
+      .second-title();
+    }
+
+    &__item {
+      margin: 0;
+    }
+
+    &__author-name {
+      .third-title-all();
+      font-style: inherit;
+    }
+
+    &__author-email {
+      color: #444444;
+      .text-all();
+      .link;
+    }
+
+    &__min-button-container {
+      display: flex;
+    }
+
+    &__min-button {
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      width: 130px;
+      margin-bottom: 30px;
+    }
+
+    &__buton {
+      .button-normal-font();
+      font-size: 18px;
+    }
+
+    &__text {
+      font-size: 13px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    &__wrapper {
+      .wrapper-tablet;
+    }
+
+    &__title {
+      order: 0;
+      .second-title-tablet();
+    }
+
+    &__list {
+      order: 3;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__text {
+      .description-font();
+      width: 645px;
+      order: 1;
+    }
+
+    &__author {
+      width: 334px;
+    }
+
+    &__min-button-container {
+      margin-left: auto;
+    }
+
+    &__author-name {
+      order: 2;
+      font-size: 18px;
+    }
+
+    &__author-email {
+      order: 4;
+    }
+
+    &__button {
+      margin-left: auto;
+      .button-normal-font();
+      width: 175px;
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .reviews {
+    box-sizing: border-box;
+    min-height: 455px;
+    padding-bottom: 111px;
+
+    &__wrapper {
+      .wrapper-desktop;
+    }
+
+    &__title {
+      font-size: 53px;
+      line-height: 57px;
+      margin-top: 80px;
+      .second-title-desktop();
+    }
+
+    &__text {
+      .text-all();
+      width: 780px;
+    }
+
+    &__author-name {
+      .third-title-all();
+    }
+
+    &__button {
+      margin-top: 80px;
+    }
   }
 }

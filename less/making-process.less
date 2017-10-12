@@ -1,10 +1,125 @@
 .making-process {
+  width: 260px;
+  .wrapper;
+  margin-bottom: 58px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  &__title-container {
+    box-sizing: border-box;
+    padding-right: 43px;
+    padding-top: 23px;
+    padding-left: 28px;
+    border-top: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    min-height: 96px;
+  }
+
   &__title {
-    .third-title();
+    .third-title-all();
+    text-align: center;
+    padding-left: 57px;
   }
 
   &__text {
-    .discription-font;
+    .description-font();
     line-height: 24px;
+    margin-bottom: 22px;
+    min-height: 114px;
+  }
+
+  &__video {
+    width: 260px;
+    height: 150px;
+    background-color: #e0e0e0;
+    display: block;
+  }
+
+  &__text-container {
+    padding-left: 28px;
+    padding-right: 34px;
+    padding-top: 23px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding-bottom: 33px;
+    min-height: 257px;
+  }
+
+  &__button {
+    width: 192px;
+    min-height: 52px;
+    .button();
+    .button-small-font();
+  }
+}
+
+@media (min-width: 768px) {
+  .making-process {
+    width: 668px;
+    .wrapper-tablet;
+    margin-bottom: 63px;
+
+    &__video {
+      order: 1;
+      width: 668px;
+      height: 455px;
+    }
+
+    &__title {
+      .third-title-tablet-desktop();
+    }
+
+    &__title-container {
+      border-top: 1px solid #ededed;
+      order: 2;
+      min-height: 54px;
+      box-sizing: border-box;
+    }
+
+    &__text-container {
+      padding-left: 42px;
+      padding-right: 42px;
+      padding-bottom: 46px;
+
+      order: 3;
+    }
+
+    &__button {
+      width: 584px;
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .making-process {
+    width: 1050px;
+    position: relative;
+    .wrapper-desktop;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    &__video {
+      position: absolute;
+      content: "";
+    }
+
+    &__title-container {
+      width: 367px;
+      margin-left: auto;
+    }
+
+    &__text-container {
+      width: 367px;
+      margin-left: auto;
+    }
+
+    &__button {
+      width: 230px;
+    }
   }
 }

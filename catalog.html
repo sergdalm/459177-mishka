@@ -2,67 +2,95 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Каталог товаров магазина «Мишка»</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    <header class="page-header wrapper">
-        <a class="page-header__index-link" href="index.html"> <img class="page-header__logo-image" src="http://placehold.it/86x35" width="86" height="35" alt="Логотип магазина «Мишка»"> </a>
+    <header class="page-header" >
         <nav class="main-nav">
-            <ul class="main-nav__list site-list">
-                <li class="nav-list__item"><a class="nav-list__link nav-list__link--current"> Каталог товаров</a>
+            <a class="main-nav__index-link">
+                <div class="main-nav__logo-image"></div>
+            </a>
+            <ul class="main-nav__list nav-first nav-first--inner-page">
+                <li class="nav-first__item"><a class="nav-first__link nav-first__link--catalog" href="catalog.html">Каталог товаров</a>
                 </li>
-                <li class="nav-list__item"><a class="nav-list__link" href="form.html">Вязание на заказ</a>
+                <li class="nav-first__item"><a class="nav-first__link nav-first__link--order" href="form.html">Вязание на заказ</a>
                 </li>
-                <li class="nav-list__item"><a class="nav-list__link" href="#">Поиск по сайту</a>
+                <li class="nav-first__delivery"><span class="nav-first__delivery-text">Бесплатная доставка по России</span></li>
+            </ul>
+            <ul class="main-nav__list nav-second">
+                <li class="nav-second__item nav-second__search"><a class="nav-second__link nav-second__search" href="#"><div class="nav-second__search--img"></div> <span class=" nav-second__search--text">Поиск по сайту</span></a>
                 </li>
-                <li class="nav-list__item"><a class="nav-list__link" href="#">Корзина: пока пуста</a>
+                <li class="nav-second__item nav-second__basket"><a class="nav-second__link nav-second__basket--link" href="#">Корзина: пока пуста</a>
+                </li>
+
+            </ul>
+            <ul class="main-nav__list nav-third nav-third--inner-page">
+                <li class="nav-third__item nav-third__new-products"> <a class="nav-third__link"> Новые поступления</a>
+                </li>
+                <li class="nav-third__item nav-third__sale"><a class="nav-third__link"> Распродажа</a>
+                </li>
+                <li class="nav-third__item nav-third__delivery">
+                    <span class="nav-third__delivery-text">Бесплатная доставка по России</span>
                 </li>
             </ul>
         </nav>
-    </header>
-    <main class="page-main">
-        <div class="page-main__title-container">
-            <div class="page-main__title-wrapper wrapper">
-                <h1 class="page-main__title">Каталог товаров</h1>
+        <div class="page-header__title-container">
+            <div class="page-header__title-wrapper">
+                <h1 class="page-header__title">Каталог товаров</h1>
             </div>
         </div>
+    </header>
+    <main class="page-main">
         <section class="products">
             <ul class="products__list">
                 <li class="products__item">
                     <img class="products__image" src="http://placehold.it/260x195" width="260" height="195" alt="Зайчик-попрыгайчик">
-                    <h3 class="products__name">Зайчик-попрыгайчик</h3>
-                    <p class="products__details">Рост 30 см, вес 200 г</p>
-                    <span class="products__price">1 200 руб.</span> <a class="products__buy"></a>
+                    <div class="products__text-container">
+                        <h3 class="products__name">Зайчик-попрыгайчик</h3>
+                        <p class="products__details">Рост 30 см, вес 200 г</p>
+                        <span class="products__price">1 200 руб.</span> <a class="products__buy"></a>
+                    </div>
                 </li>
                 <li class="products__item">
                     <img class="products__image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">
-                    <h3 class="products__name">Корзинка для белья</h3>
-                    <p class="products__details">Диаметр 15 см, высота 10 см</p>
-                    <span class="products__price">690 руб.</span> <a class="products__buy"></a>
+                    <div class="products__text-container">
+                        <h3 class="products__name">Корзинка для белья</h3>
+                        <p class="products__details">Диаметр 15 см, высота 10 см</p>
+                        <span class="products__price">690 руб.</span> <a class="products__buy"></a>
+                    </div>
                 </li>
                 <li class="products__item">
                     <img class="products__image" src="http://placehold.it/260x195" width="260" height="195" alt="Большая корзинка для игрушек">
-                    <h3 class="products__name">Большая корзинка для игрушек</h3>
-                    <p class="products__details">Диаметр 30 см, высота 30 см</p>
-                    <span class="products__price">1 500 руб.</span> <a class="products__buy"></a>
+                    <div class="products__text-container">
+                        <h3 class="products__name">Большая корзинка для игрушек</h3>
+                        <p class="products__details">Диаметр 30 см, высота 30 см</p>
+                        <span class="products__price">1 500 руб.</span> <a class="products__buy"></a>
+                    </div>
                 </li>
             </ul>
         </section>
         <section class="making-process">
-            <h2 class="making-process__title">Процесс производства</h2>
+            <div class="making-process__title-container">
+                <h2 class="making-process__title">Процесс производства</h2>
+            </div>
             <video class="making-process__video" width="260" height="150" preload="auto">
                 <source src="#" type="video/mp4">
             </video>
-            <p class="making-process__text">
-                По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
-            </p>
-            <a class="button" href="#">Сделать заказ</a>
+            <div class="making-process__text-container">
+                <p class="making-process__text">
+                    По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+                </p>
+                <a class="making-process__button" href="#">Сделать заказ</a>
+            </div>
         </section>
     </main>
     <footer class="page-footer">
-        <section class="social wrapper">
+        <a class="page-footer__logo wrapper" href="index.html">
+        </a>
+        <section class="social social__wrapper">
             <h2 class="visually-hidden">Мы в социальных сетях</h2>
             <ul class="social__list">
                 <li class="social__item">
@@ -76,9 +104,8 @@
                 </li>
             </ul>
         </section>
-        <section class="copyright">
-            <p class="copyright__text">Разработано <a class="copyright_link" href="https://htmlacademy.ru">HTML
-                Academy</a></p>
+        <section class="copyright wrapper">
+            <p class="copyright__text">Разработано <a class="copyright__link" href="https://htmlacademy.ru"> <span class=" visually-hidden">HTML Academy</span> </a></p>
         </section>
     </footer>
     </body>

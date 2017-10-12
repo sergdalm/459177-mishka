@@ -1,5 +1,54 @@
 .contacts-table {
+  display: table;
+
+  &__email,
+  &__address {
+    display: table-row;
+    margin-top: 0;
+    .list;
+  }
+
   &__cell {
+    display: table-cell;
     line-height: 30px;
+    font-size: 15px;
+
+    &:first-of-type {
+      width: 64px;
+    }
+
+    &:last-of-type {
+      width: 140px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contacts-table {
+    &__container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__cell {
+      .text-all();
+
+      &:last-of-type {
+        width: 230px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .contacts-table {
+    &__container {
+      margin-left: 175px;
+      height: 180px;
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
   }
 }

@@ -1,7 +1,29 @@
-.page-footer {
-  .theme(@footer-color);
-  margin-top: 39px;
-  padding-top: 24px;
-  padding-bottom: 23px;
-  min-height: 160px;
+@media (min-width: 320px) {
+  .page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .theme(@footer-color);
+    padding-top: 24px;
+    padding-bottom: 23px;
+    min-height: 160px;
+    box-sizing: border-box;
+
+    &__logo {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .page-footer {
+    &__logo {
+      display: block;
+      background-image: url("../img/logo-footer.svg");
+      background-repeat: no-repeat;
+      background-color: black;
+      width: 102px;
+      height: 34px;
+    }
+  }
 }
