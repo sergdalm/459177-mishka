@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f90181d-7e74-49f3-9cbf-d6344d5e6b57" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mishka-logo-desktop.svg" afterPath="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/mishka-logo-tablet.svg" afterPath="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/less/page-main.less" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/mixins.less" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/nav-third.less" afterPath="$PROJECT_DIR$/less/nav-third.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/normalize.less" afterPath="$PROJECT_DIR$/less/normalize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/style.less" afterPath="$PROJECT_DIR$/less/style.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +28,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/mixins.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalize.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/less/normalize.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,7 +108,6 @@
         <option value="$PROJECT_DIR$/wrapper.less" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/form.html" />
-        <option value="$PROJECT_DIR$/less/normalize.less" />
         <option value="$PROJECT_DIR$/less/wrapper.less" />
         <option value="$PROJECT_DIR$/slogan.less" />
         <option value="$PROJECT_DIR$/less/categories-list.less" />
@@ -89,23 +123,24 @@
         <option value="$PROJECT_DIR$/less/copyright.less" />
         <option value="$PROJECT_DIR$/less/contacts-table.less" />
         <option value="$PROJECT_DIR$/less/main-nav.less" />
-        <option value="$PROJECT_DIR$/less/mixins.less" />
         <option value="$PROJECT_DIR$/less/nav-first.less" />
         <option value="$PROJECT_DIR$/less/nav-second.less" />
-        <option value="$PROJECT_DIR$/less/nav-third.less" />
         <option value="$PROJECT_DIR$/less/order.less" />
         <option value="$PROJECT_DIR$/less/page-footer.less" />
         <option value="$PROJECT_DIR$/less/page-header.less" />
-        <option value="$PROJECT_DIR$/less/page-main.less" />
         <option value="$PROJECT_DIR$/less/products.less" />
         <option value="$PROJECT_DIR$/less/popular-item.less" />
         <option value="$PROJECT_DIR$/less/reviews.less" />
         <option value="$PROJECT_DIR$/less/slogan.less" />
         <option value="$PROJECT_DIR$/less/social.less" />
-        <option value="$PROJECT_DIR$/less/style.less" />
         <option value="$PROJECT_DIR$/less/visually-hidden.less" />
         <option value="$PROJECT_DIR$/img/mishka-logo-tablet.svg" />
         <option value="$PROJECT_DIR$/img/mishka-logo-desktop.svg" />
+        <option value="$PROJECT_DIR$/less/mixins.less" />
+        <option value="$PROJECT_DIR$/less/nav-third.less" />
+        <option value="$PROJECT_DIR$/less/normalize.less" />
+        <option value="$PROJECT_DIR$/less/page-main.less" />
+        <option value="$PROJECT_DIR$/less/style.less" />
       </list>
     </option>
   </component>
@@ -270,17 +305,18 @@
       <workItem from="1507504123896" duration="1118000" />
       <workItem from="1507505500411" duration="2749000" />
       <workItem from="1507582443644" duration="34741000" />
-      <workItem from="1507708659146" duration="30085000" />
+      <workItem from="1507708659146" duration="30599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122738000" />
+    <option name="totallyTimeSpent" value="123252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="404" y="0" width="962" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2027027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -460,14 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="248" column="0" lean-forward="true" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/nav-first.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -480,22 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/nav-third.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/normalize.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="447" column="0" lean-forward="true" selection-start-line="447" selection-start-column="0" selection-end-line="447" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -520,14 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/page-main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -572,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/making-process.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
@@ -616,6 +612,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1220">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/nav-third.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/page-main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/normalize.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
