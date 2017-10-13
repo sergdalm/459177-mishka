@@ -1,10 +1,10 @@
 .products {
   .wrapper;
+  margin-top: 30px;
 
   &__list {
     .list;
   }
-
 
   &__name {
     padding-top: 26px;
@@ -53,6 +53,7 @@
 @media (min-width: 768px) {
   .products {
     .wrapper-tablet;
+    margin-top: 80px;
 
     &__image {
       width: 334px;
@@ -75,6 +76,7 @@
 
     &__text-container {
       width: 334px;
+      border-top: 1px solid #ededed;
     }
   }
 }
@@ -82,7 +84,7 @@
 @media (min-width: 1250px) {
   .products {
     .wrapper-desktop;
-    margin-top: 116px;
+    margin-top: 129px;
 
     &__list {
       display: flex;
@@ -108,6 +110,11 @@
     &__image {
       width: 315px;
       height: 462px;
+    }
+
+    &__text-container {
+      min-height: 211px;
+      box-sizing: border-box;
     }
   }
 }

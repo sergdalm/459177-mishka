@@ -1,9 +1,25 @@
-.page-header {
-  padding-top: 25px;
+.page-main {
+  &__title-container {
+    width: 320px;
+    box-sizing: border-box;
+
+    min-height: 177px;
+    background-color: #f1f1f1;
+  }
+
+  &__title-wrapper {
+    .wrapper;
+    padding-top: 60px;
+  }
+
+  &__title {
+    .first-title();
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
-  .page-header {
+  .page-main {
     width: 768px;
     padding-top: 0;
 
@@ -24,7 +40,7 @@
 }
 
 @media (min-width: 1250px) {
-  .page-header {
+  .page-main {
     width: 1250px;
 
     &__title-container {
@@ -33,6 +49,7 @@
     }
 
     &__title {
+      .wrapper-desktop;
       .first-title-desktop();
     }
   }

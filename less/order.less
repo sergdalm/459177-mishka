@@ -1,16 +1,28 @@
 .order-form {
+  width: 260px;
+  margin-bottom: 55px;
+
   &__text {
+    width: 260px;
     font-size: 13px;
     line-height: 24px;
+    min-height: 100px;
+    margin-top: 22px;
+    margin-bottom: 22px;
   }
 
   &__title {
-    .mark-font;
-    line-height: 16px;
+    .form-title-font;
+    padding-bottom: 30px;
   }
 
   &__label {
-    line-height: 5px;
+    font-size: 17px;
+    line-height: 18px;
+
+    &--name {
+      margin-bottom: 17px;
+    }
   }
 
   &__notice {
@@ -18,21 +30,111 @@
     line-height: 16px;
   }
 
-  &___input {
+  &__input {
+    border: 0;
+
     &::placeholder {
-      .placeholder-font;
+      .placeholder-font();
+      font-size: 17px;
     }
+
+    &--placeholder {
+      padding-bottom: 16px;
+      border-bottom: 2px solid #000000;
+      box-sizing: border-box;
+      width: 260px;
+    }
+  }
+
+  &__textarea {
+    width: 260px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    padding-left: 17px;
+    padding-top: 15px;
+
+    &::placeholder {
+      .placeholder-font();
+    }
+  }
+
+  &__container {
+    &--radio {
+      margin-bottom: 26px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    &--checkbox {
+      margin-bottom: 34px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    &--name {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-bottom: 22px;
+    }
+  }
+
+  &__fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__button {
+    .button-small-font();
+    line-height: 18px;
   }
 }
 
 @media (min-width: 768px) {
   .order-form {
+    width: 668px;
+
     &__text {
-      .order-text-font-tablet-desktop()
+      .order-text-font-tablet-desktop();
+      width: 668px;
     }
 
     &__notice {
       .order-text-font-tablet-desktop()
+    }
+
+    &__fieldset {
+      flex-direction: row;
+    }
+
+    &__title {
+      width: 167px;
+      margin: 0;
+    }
+
+    &__container {
+      margin: 0;
+
+      &--radio {
+        width: 334px;
+      }
+
+      &--checkbox {
+        width: 200px;
+      }
     }
   }
 }

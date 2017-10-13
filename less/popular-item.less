@@ -1,5 +1,6 @@
 @media (min-width: 320px) {
   .popular-item {
+    width: 260px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,23 +49,24 @@
 
 @media (min-width: 768px) {
   .popular-item {
+    width: 668px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     .wrapper-tablet;
 
+    &__price {
+      .third-title-tablet-desktop();
+    }
+
     &__container-title {
-      margin-right: 28px;
       order: 1;
+      margin-right: 28px;
       display: flex;
       justify-content: space-between;
       width: 100%;
       margin-bottom: 47px;
-    }
-
-    &__price {
-      .third-title-tablet-desktop();
     }
 
     &__container-big {
@@ -73,6 +75,24 @@
       flex-direction: column;
       flex-wrap: wrap;
       height: 480px;
+    }
+
+    &__container-buy {
+      order: 3;
+      margin-top: -154px;
+    }
+
+    &__image {
+      order: 2;
+      background-image: url("../img/triple-set-tablet.png");
+      width: 334px;
+      height: 404px;
+      margin-left: auto;
+    }
+
+    &__container-contant {
+      height: 280px;
+      order: 1;
     }
 
     &__title {
@@ -85,35 +105,21 @@
       .mark-font-tablet-desktop();
     }
 
-    &__container-contant {
-      height: 280px;
-      order: 1;
-    }
-
     &__text {
       width: 300px;
       margin: 0;
       .text-all();
     }
 
-    &__container-buy {
-      order: 2;
-    }
-
-    &__image {
-      order: 3;
-      background-image: url("../img/triple-set-tablet.png");
-      width: 334px;
-      height: 404px;
-      margin-left: auto;
+    &__button {
+      width: 290px;
     }
   }
 }
 
 @media (min-width: 1250px) {
   .popular-item {
-    position: relative;
-    height: 636px;
+    width: 1050px;
     .wrapper-desktop;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -128,10 +134,6 @@
     }
 
     &__title {
-      position: absolute;
-      content: "";
-      left: 175px;
-      z-index: 1;
       order: 2;
       .second-title-desktop();
     }
@@ -142,13 +144,11 @@
     }
 
     &__image {
-      order: 4;
+      margin-top: -640px;
+      order: 3;
       background-image: url("../img/triple-set-desktop.png");
       width: 525px;
       height: 636px;
-      position: absolute;
-      content: "";
-      left: 525px;
     }
 
     &__container-big {
@@ -158,8 +158,8 @@
     }
 
     &__container-buy {
-      order: 3;
-      margin-top: auto;
+      margin-top: -80px;
+      order: 4;
       margin-left: 175px;
     }
   }

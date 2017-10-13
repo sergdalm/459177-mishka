@@ -19,7 +19,7 @@
     .wrapper-tablet;
     display: flex;
     order: 1;
-    margin-left: auto;
+    margin-left: 170px;
     margin-right: 0;
 
     &__item {
@@ -28,7 +28,9 @@
     }
 
     &__search {
+      padding-top: 30px;
       width: 84px;
+      box-sizing: border-box;
 
       &--img {
         width: 18px;
@@ -42,7 +44,12 @@
     }
 
     &__basket {
+      padding-top: 30px;
       width: 265px;
+    }
+
+    &__basket--link {
+      padding-left: 40px;
     }
   }
 }
@@ -50,9 +57,16 @@
 @media (min-width: 1250px) {
   .nav-second {
     order: 3;
+    margin-left: 0;
+
+
+    &__basket {
+      width: 265px;
+      box-sizing: border-box;
+    }
 
     &__basket--link {
-      margin-left: auto;
+      padding-left: 84px;
     }
   }
 }

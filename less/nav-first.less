@@ -11,10 +11,6 @@
       height: 80px;
       padding-left: 76px;
     }
-
-    &__delivery {
-      display: none;
-    }
   }
 }
 
@@ -24,8 +20,7 @@
     justify-content: flex-start;
     order: 2;
     background-color: #f9f9f9;
-    padding-top: 19px;
-    width: 100%;
+    width: 384px;
     border-top: 1px solid #dfdfdf;
     box-sizing: border-box;
 
@@ -38,31 +33,21 @@
     }
 
     &__item {
+      min-height: 92px;
+      flex-shrink: 0;
       height: 50px;
       padding: 0;
+      padding-top: 30px;
       display: inline-block;
       font-size: 15px;
       line-height: 24px;
+      width: 167px;
+      padding-right: 36px;
+      box-sizing: border-box;
 
       &:first-of-type {
         margin-left: 50px;
-        margin-right: 36px;
       }
-    }
-
-    &__delivery {
-      display: inline-block;
-      margin-left: auto;
-      order: 3;
-    }
-
-    &__delivery-text {
-      font-size: 15px;
-      line-height: 24px;
-      .wrapper-tablet;
-      display: inline-block;
-      margin-left: auto;
-      text-align: right;
     }
   }
 }
@@ -80,17 +65,20 @@
     }
 
     &__item {
-      &:first-of-type {
+      padding-top: 30px;
+      box-sizing: border-box;
+
+      &:nth-of-type(odd) {
         margin-left: 0;
+        border-right: 1px solid #dfdfdf;
+        min-width: 185px;
       }
-    }
 
-    &__link--order {
-      margin-left: 36px;
-    }
-
-    &__delivery {
-      display: none;
+      &:nth-of-type(even) {
+        padding-left: 35px;
+        padding-right: 0;
+        width: 200px;
+      }
     }
   }
 }

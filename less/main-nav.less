@@ -13,6 +13,10 @@
       background-image: url("../img/logo-mobile.svg");
       background-repeat: no-repeat;
     }
+
+    &__delivery {
+      display: none;
+    }
   }
 }
 
@@ -27,6 +31,30 @@
       height: 44px;
       background-image: url("../img/mishka-logo-tablet.svg");
     }
+
+    &__delivery-text {
+      font-size: 15px;
+      line-height: 24px;
+      .wrapper-tablet;
+      display: inline-block;
+      margin-left: auto;
+      text-align: right;
+    }
+
+    &__delivery {
+      display: inline-block;
+      order: 4;
+      background-color: #f9f9f9;
+      width: 384px;
+      border-top: 1px solid #dfdfdf;
+      box-sizing: border-box;
+      padding-top: 20px;
+      padding-left: 105px;
+
+      &--inner-page {
+        background-color: #f1f1f1;
+      }
+    }
   }
 }
 
@@ -35,12 +63,20 @@
     &__index-link {
       order: 2;
       margin: auto;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     &__logo-image {
       width: 149px;
       height: 72px;
       background-image: url("../img/mishka-logo-desktop.svg");
+    }
+
+    &__delivery {
+      order: 5;
+      width: 625px;
+      padding-left: 295px;
     }
   }
 }

@@ -2,7 +2,7 @@
   order: 4;
 
   &__container {
-    width: 100%;
+    width: 320px;
     min-height: 283px;
     margin-left: 0;
     background-repeat: no-repeat;
@@ -30,9 +30,10 @@
 @media (min-width: 768px) {
   .slogan {
     &__container {
+      width: 768px;
       min-height: 627px;
       background-image: url("../img/hero-desktop.png");
-      background-size: 100%;
+      background-size: 768px;
       background-position: center -0;
       padding-top: 160px;
     }
@@ -49,15 +50,18 @@
 @media (min-width: 1250px) {
   .slogan {
     &__container {
-      background-size: 70%;
+      width: 1250px;
+      background-size: 870px;
       background-position: center -85px;
       padding-top: 110px;
     }
 
     &__text {
-      margin-left: 285px;
-      margin-right: 285px;
+      display: block;
+      .wrapper-desktop;
+      width: 700px;
       .first-title-desktop();
+      margin-left: 285px;
     }
   }
 }
