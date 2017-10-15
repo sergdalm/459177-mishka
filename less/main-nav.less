@@ -1,5 +1,6 @@
 @media (min-width: 320px) {
   .main-nav {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -7,16 +8,97 @@
     &__logo-image {
       width: 86px;
       height: 35px;
-      margin-left: 86px;
-      margin-right: 88px;
       margin-bottom: 22px;
       background-image: url("../img/logo-mobile.svg");
       background-repeat: no-repeat;
+      text-align: center;
     }
 
     &__delivery {
       display: none;
     }
+  }
+}
+
+.main-nav__toggle {
+  position: absolute;
+  content: "";
+  top: 80px;
+  right: 0;
+  z-index: 2;
+
+  display: block;
+  width: 70px;
+  height: 80px;
+
+  background-color: #ffffff;
+
+  cursor: pointer;
+  border: none;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  margin-top: -80px;
+}
+
+.main-nav--closed .main-nav__toggle::before {
+  content: "";
+
+  position: absolute;
+  top: 32px;
+  left: 19px;
+
+  width: 20px;
+  height: 2px;
+
+  background-color: #000000;
+  box-shadow: 0 8px 0 0 #000000, 0 16px 0 0 #000000;
+}
+
+.main-nav--opened .main-nav__toggle {
+  &::before,
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 32px;
+    left: 19px;
+    width: 28px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 3px;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.main-nav__index-link {
+  height: 80px;
+  box-sizing: border-box;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  text-align: center;
+}
+
+@media (max-width: @mobile-width-only) {
+  .main-nav--closed .nav-first__item {
+    display: none;
+  }
+
+  .main-nav--closed .nav-second__item {
+    display: none;
+  }
+
+  .main-nav--nojs .main-nav__toggle {
+    display: none;
   }
 }
 
@@ -27,6 +109,7 @@
     &__logo-image {
       margin-bottom: 20px;
       margin-left: 48px;
+      margin-top: 22px;
       width: 113px;
       height: 44px;
       background-image: url("../img/mishka-logo-tablet.svg");
@@ -56,6 +139,10 @@
       }
     }
   }
+
+  .main-nav__toggle {
+    display: none;
+  }
 }
 
 @media (min-width: 1250px) {
@@ -70,6 +157,7 @@
     &__logo-image {
       width: 149px;
       height: 72px;
+      margin-top: 9px;
       background-image: url("../img/mishka-logo-desktop.svg");
     }
 
