@@ -1,10 +1,7 @@
 .order-form {
-  width: 260px;
   margin-bottom: 55px;
-}
+  margin-left: 30px;
 
-.order-form__wrapper {
-  .wrapper;
 }
 
 .order-form__text {
@@ -96,7 +93,6 @@
   border: 0;
   padding: 0;
   margin: 0;
-  margin-bottom: 40px;
 
   &:last-of-type {
     margin-bottom: 0;
@@ -110,21 +106,26 @@
 
 @media (min-width: 768px) {
   .order-form {
-    width: 668px;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .order-form__wrapper {
-    .wrapper-tablet;
+  .order-form__label {
+    .form-label-font;
+  }
+
+  .order-form__input--placeholder {
+    background-color: inherit;
   }
 
   .order-form__text {
     .order-text-font-tablet-desktop();
-    width: 668px;
+    width: 625px;
+    margin-top: 81px;
   }
 
   .order-form__button {
+    .button-font-tablet-order;
     order: 1;
     margin-top: 53px;
     width: 230px;
@@ -140,12 +141,38 @@
   .order-form__fieldset {
     flex-direction: row;
     flex-wrap: nowrap;
+
+    &--radio {
+      padding-bottom: 50px;
+      padding-left: 50px;
+    }
+
+    &--checkbox {
+      min-height: 304px;
+      background-color: #f1f1f1;
+      padding-top: 63px;
+      box-sizing: border-box;
+      padding-left: 50px;
+    }
+
+    &--name {
+      min-height: 304px;
+      padding-top: 63px;
+      box-sizing: border-box;
+      padding-left: 50px;
+    }
+
+    &--addition {
+      padding-top: 50px;
+      padding-left: 50px;
+    }
   }
 
   .order-form__title {
     width: 167px;
     margin: 0;
     display: inline-block;
+    .form-title-font;
   }
 
   .order-form__container {
@@ -169,6 +196,19 @@
     }
   }
 
+  .order-form__background-container {
+    width: 100%;
+  }
+
+  .order-form__background-container--contacts {
+    min-height: 228px;
+    background-color: #f1f1f1;
+    padding-top: 63px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+  }
+
   .order-form__input {
     &--placeholder {
       width: 501px;
@@ -177,132 +217,132 @@
 
   .order-form__container--name .order-form__input--placeholder {
     width: 100%;
-  }
-
-  .order-form__textarea {
-    width: 501px;
-  }
-}
-
-@media (min-width: 1250px) {
-  .order-form__wrapper {
-    margin: 0;
-  }
-
-  .order-form {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .order-form__text {
-    width: 700px;
-    margin: 0 auto;
-    min-height: 250px;
-    padding-top: 65px;
-    box-sizing: border-box;
-  }
-
-  .order-form__button {
-    margin-top: 49px;
-    width: 230px;
-    margin-right: auto;
-  }
-
-  .order-form__notice {
-    margin-left: auto;
-  }
-
-  .order-form__fieldset {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    .wrapper-desktop;
-
-    &--radio {
-      min-height: 183px;
-    }
-
-    &--checkbox {
-      min-height: 228px;
-      margin-top: 50px;
-      box-sizing: border-box;
-    }
-
-    &--name {
-      min-height: 304px;
-      padding-top: 65px;
-      padding-bottom: 50px;
-      box-sizing: border-box;
-    }
-
-    &--addition {
-      margin-top: 50px;
-    }
-
-    &--tel {
-      padding-top: 67px;
-    }
-  }
-
-  .order-form__background-container--contacts {
-    min-height: 228px;
-  }
-
-  .order-form__title {
-    width: 175px;
-  }
-
-  .order-form__container {
-    width: 700px;
-
-    &--radio {
-      width: 700px;
-    }
-
-    &--checkbox {
-      width: 200px;
-      height: 52px;
-    }
-
-    &--name {
-      width: 700px;
-    }
-
-    &--button {
-      display: flex;
-      width: 700px;
-      .wrapper-desktop;
-      margin-left: 275px;
-    }
-  }
-
-  .order-form__input {
-    &--placeholder {
-      width: 700px;
-    }
-  }
-
-  .order-form__input--placeholder {
-    background-color: inherit;
-  }
-
-  .order-form__container--name .order-form__input--placeholder {
-    width: 100%;
     height: 37px;
   }
 
   .order-form__textarea {
-    width: 700px;
-    min-height: 142px;
-    box-sizing: border-box;
-  }
-
-  .order-form__background-container {
-    background-color: #f1f1f1;
-    width: 1250px;
+    width: 501px;
   }
 
   .order-form__label--name {
     padding-right: 26px;
     margin-bottom: 0;
   }
+
+  .order-form__container--button {
+    width: 668px;
+    display: flex;
+  }
 }
+
+  @media (min-width: 1150px) {
+    .order-form__wrapper {
+      margin: 0;
+    }
+
+    .order-form {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .order-form__text {
+      width: 700px;
+      margin: 0 auto;
+      min-height: 250px;
+      padding-top: 65px;
+      box-sizing: border-box;
+    }
+
+    .order-form__button {
+      margin-top: 49px;
+      width: 230px;
+      margin-right: auto;
+    }
+
+    .order-form__notice {
+      margin-left: auto;
+    }
+
+    .order-form__fieldset {
+      flex-direction: row;
+      flex-wrap: nowrap;
+
+      &--radio {
+        min-height: 183px;
+      }
+
+      &--checkbox {
+        min-height: 228px;
+        margin-top: 50px;
+        box-sizing: border-box;
+      }
+
+      &--name {
+        min-height: 304px;
+        padding-top: 65px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+      }
+
+      &--addition {
+        margin-top: 50px;
+      }
+
+      &--tel {
+        padding-top: 67px;
+      }
+    }
+
+    .order-form__background-container--contacts {
+      min-height: 228px;
+    }
+
+    .order-form__title {
+      width: 175px;
+      text-align: center;
+    }
+
+    .order-form__container {
+      width: 700px;
+
+      &--radio {
+        width: 700px;
+      }
+
+      &--checkbox {
+        width: 200px;
+        height: 52px;
+      }
+
+      &--name {
+        width: 700px;
+      }
+
+      &--button {
+        display: flex;
+        width: 700px;
+        margin-left: 175px;
+      }
+    }
+
+    .order-form__input {
+      &--placeholder {
+        width: 700px;
+      }
+    }
+
+    .order-form__input--placeholder {
+      background-color: inherit;
+    }
+
+    .order-form__textarea {
+      width: 700px;
+      min-height: 142px;
+      box-sizing: border-box;
+    }
+
+    .order-form__background-container {
+      background-color: #f1f1f1;
+      width: 1150px;
+    }
+  }

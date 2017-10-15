@@ -1,36 +1,26 @@
 .page-main {
   &__title-container {
-    width: 320px;
     box-sizing: border-box;
 
     min-height: 177px;
     background-color: #f1f1f1;
   }
 
-  &__title-wrapper {
-    .wrapper;
-    padding-top: 60px;
-  }
-
   &__title {
     .first-title();
     text-align: center;
+    padding-top: 60px;
   }
 }
 
 @media (min-width: 768px) {
   .page-main {
-    width: 768px;
     padding-top: 0;
 
     &__title-container {
       width: 768px;
       min-height: 147px;
-    }
-
-    &__title-wrapper {
-      .wrapper-tablet;
-      padding-top: 41px;
+      box-sizing: border-box;
     }
 
     &__title {
@@ -39,17 +29,15 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .page-main {
-    width: 1250px;
 
     &__title-container {
-      width: 1250px;
+      width: 100%;
       padding-bottom: 72px;
     }
 
     &__title {
-      .wrapper-desktop;
       .first-title-desktop();
     }
   }

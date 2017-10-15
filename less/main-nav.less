@@ -108,20 +108,22 @@
 
     &__logo-image {
       margin-bottom: 20px;
-      margin-left: 48px;
-      margin-top: 22px;
       width: 113px;
       height: 44px;
       background-image: url("../img/mishka-logo-tablet.svg");
     }
 
+    .main-nav__index-link {
+      border: 0;
+      margin-left: 50px;
+    }
+
     &__delivery-text {
       font-size: 15px;
       line-height: 24px;
-      .wrapper-tablet;
       display: inline-block;
-      margin-left: auto;
       text-align: right;
+      margin-left: 40px;
     }
 
     &__delivery {
@@ -145,7 +147,7 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .main-nav {
     &__index-link {
       order: 2;
@@ -163,7 +165,7 @@
 
     &__delivery {
       order: 5;
-      width: 625px;
+      width: 575px;
       padding-left: 295px;
     }
   }

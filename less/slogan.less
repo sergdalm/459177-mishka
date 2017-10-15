@@ -14,10 +14,6 @@
     box-sizing: border-box;
   }
 
-  &__wrapper {
-    .wrapper;
-  }
-
   &__text {
     display: inline-block;
     .first-title();
@@ -39,7 +35,6 @@
     }
 
     &__text {
-      .wrapper-tablet;
       text-align: center;
       vertical-align: center;
       .first-title-tablet();
@@ -47,17 +42,16 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .slogan {
     &__container {
-      width: 1250px;
+      width: 100%;
       background-size: 870px;
       background-position: center -85px;
     }
 
     &__text {
       display: block;
-      .wrapper-desktop;
       width: 700px;
       .first-title-desktop();
       margin-left: 285px;

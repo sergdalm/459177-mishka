@@ -9,7 +9,7 @@
       display: flex;
       flex-wrap: wrap;
       .categories-font;
-      .list()
+      list-style: none;
     }
 
     &__item--interior {
@@ -22,10 +22,6 @@
       width: 320px;
       min-height: 103px;
       .theme(@category-color2);
-    }
-
-    &__wrapper {
-      .wrapper;
     }
 
     &__link {
@@ -42,14 +38,13 @@
 
     flex-direction: row;
 
-    &__list {
-      .wrapper-tablet;
-    }
-
     &__item {
       box-sizing: border-box;
       width: 334px;
       padding-right: 167px;
+      min-height: 107px;
+      padding-top: 28px;
+      padding-left: 36px;
     }
 
     &__link {
@@ -58,14 +53,11 @@
   }
 }
 
-@media (min-width: 1250px) {
+@media (min-width: 1150px) {
   .categories {
-    width: 1250px;
+    width: 100%;
     margin-bottom: 71px;
 
-    &__list {
-      .wrapper-desktop;
-    }
 
     &__item {
       width: 525px;

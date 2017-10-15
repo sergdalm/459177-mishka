@@ -9,7 +9,7 @@
     </head>
     <body>
     <header class="page-header" >
-        <nav class="main-nav main-nav--opened main-nav--nojs">
+        <nav class="main-nav main-nav--closed main-nav--nojs">
             <a class="main-nav__index-link" href="index.html">
                 <img class="main-nav__logo-image" src="../img/logo-mobile.svg" alt="Магазин «Мишка»" width="86px" height="35px">
             </a>
@@ -45,27 +45,23 @@
     </header>
     <main class="page-main">
         <div class="slogan slogan__container">
-            <div class="slogan__wrapper">
+            <div class="wrapper">
                 <b class="slogan__text">Милые штуки ручной работы для дома</b>
             </div>
         </div>
         <h1 class="visually-hidden">Главная страница магазина</h1>
         <section class="categories">
             <h2 class="visually-hidden">Категории товаров</h2>
-            <ul class="categories__list">
+            <ul class="categories__list wrapper">
                 <li class="categories__item categories__item--interior">
-                    <div class="categories__wrapper">
                         <a class="categories__link" href="#">Предметы интерьера</a>
-                    </div>
                 </li>
                 <li class="categories__item categories__item--toys">
-                    <div class="categories__wrapper">
                         <a class="categories__link" href="#">Детские игрушки</a>
-                    </div>
                 </li>
             </ul>
         </section>
-        <section class="popular-item popular-item__wrapper">
+        <section class="popular-item wrapper">
             <div class="popular-item__container-title">
                 <h2 class="popular-item__title">Вязаные корзинки</h2>
                 <b class="popular-item__mark">Товар недели</b>
@@ -97,7 +93,7 @@
             </div>
             <div class="popular-item__image"></div>
         </section>
-        <section class="advantages advantages__wrapper">
+        <section class="advantages wrapper">
             <h2 class="advantages__title">Коротко о нас:</h2>
             <ul class="advantages__list">
                 <li class="advantages__item  advantages__item--ecology">
@@ -120,7 +116,7 @@
                 </li>
             </ul>
         </section>
-        <section class="reviews reviews__wrapper">
+        <section class="reviews wrapper">
                 <h2 class="reviews__title">Отзывы</h2>
                 <div class="reviews__list">
                     <blockquote class="reviews__item">
@@ -143,56 +139,62 @@
                 <a class="reviews__button button">Написать</a>
         </section>
         <section class="contacts">
-            <h2 class="contacts__title wrapper">Контакты</h2>
-            <div class="contacts__wrapper contacts-table__container">
-                <article class="contacts__table">
-                    <ul class="contacts-table__email">
-                        <li class="contacts-table__cell contacts-table__cell-fi">
-                            e-mail:
-                        </li>
-                        <li class="contacts-table__cell contacts-table__email--value">
-                            info@mimimishkashop.ru
-                        </li>
-                    </ul>
-                </article>
-                <article class="contacts__table">
-                    <ul class="contacts-table__address">
-                        <li class="contacts-table__cell contacts-table__address--name">
-                            адрес:
-                        </li>
-                        <li class="contacts-table__cell contacts-table__address--value">
-                            г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101
-                        </li>
-                    </ul>
-                </article>
+            <div class="wrapper">
+                <h2 class="contacts__title">Контакты</h2>
+                <div class="contacts-table__container">
+                    <article class="contacts__table">
+                        <ul class="contacts-table__email">
+                            <li class="contacts-table__cell contacts-table__cell-fi">
+                                e-mail:
+                            </li>
+                            <li class="contacts-table__cell contacts-table__email--value">
+                                info@mimimishkashop.ru
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="contacts__table">
+                        <ul class="contacts-table__address">
+                            <li class="contacts-table__cell contacts-table__address--name">
+                                адрес:
+                            </li>
+                            <li class="contacts-table__cell contacts-table__address--value">
+                                г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101
+                            </li>
+                        </ul>
+                    </article>
+                </div>
             </div>
             <div class="contacts__map">
             </div>
-            <div class="contacts__button-container wrapper">
+            <div class="wrapper">
                 <a class="contacts__button button" href="#">Напишите нам</a>
             </div>
         </section>
     </main>
     <footer class="page-footer">
-        <a class="page-footer__logo wrapper" href="index.html">
-        </a>
-        <section class="social social__wrapper">
-            <h2 class="visually-hidden">Мы в социальных сетях</h2>
-            <ul class="social__list">
-                <li class="social__item">
-                    <a class="social__link" href="#"> <span class="visually-hidden">Инстаграм</span></a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#"> <span class="visually-hidden">Фейсбук</span></a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#"> <span class="visually-hidden">Твиттер</span></a>
-                </li>
-            </ul>
-        </section>
-        <section class="copyright wrapper">
-            <p class="copyright__text">Разработано <a class="copyright__link" href="https://htmlacademy.ru"> <span class=" visually-hidden">HTML Academy</span> </a></p>
-        </section>
+        <div class="wrapper">
+            <div class="page-footer__container">
+                <a class="page-footer__logo" href="index.html">
+                </a>
+                <section class="social">
+                    <h2 class="visually-hidden">Мы в социальных сетях</h2>
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a class="social__link" href="#"> <span class="visually-hidden">Инстаграм</span></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#"> <span class="visually-hidden">Фейсбук</span></a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#"> <span class="visually-hidden">Твиттер</span></a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="copyright">
+                    <p class="copyright__text">Разработано <a class="copyright__link" href="https://htmlacademy.ru"> <span class=" visually-hidden">HTML Academy</span> </a></p>
+                </section>
+            </div>
+        </div>
     </footer>
     <script src="js/script.js" type="text/javascript"></script>
     </body>
