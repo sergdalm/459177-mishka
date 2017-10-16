@@ -1826,6 +1826,7 @@ img {
   }
   .order-form__input--placeholder {
     background-color: inherit;
+    width: 501px;
   }
   .order-form__text {
     margin: 0;
@@ -1872,7 +1873,6 @@ img {
   }
   .order-form__fieldset--radio {
     padding-bottom: 50px;
-    padding-left: 50px;
   }
   .order-form__fieldset--checkbox {
     min-height: 304px;
@@ -1938,9 +1938,6 @@ img {
             box-sizing: border-box;
     padding-left: 50px;
   }
-  .order-form__input--placeholder {
-    width: 501px;
-  }
   .order-form__container--name .order-form__input--placeholder {
     width: 100%;
     height: 37px;
@@ -1962,6 +1959,10 @@ img {
 @media (min-width: 1150px) {
   .order-form__wrapper {
     margin: 0;
+  }
+  .order-form__input--placeholder {
+    background-color: inherit;
+    width: 700px;
   }
   .order-form {
     width: 100%;
@@ -2039,12 +2040,6 @@ img {
     display: flex;
     width: 700px;
     margin-left: 175px;
-  }
-  .order-form__input--placeholder {
-    width: 700px;
-  }
-  .order-form__input--placeholder {
-    background-color: inherit;
   }
   .order-form__textarea {
     width: 700px;
